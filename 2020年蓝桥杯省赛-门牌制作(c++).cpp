@@ -10,7 +10,7 @@ int main()
 	for(int i=1;i<=2020;i++)
 	{
 		string s = to_string(i);
-		for(int j=0;i<s.size();j++)
+		for(int j=0;j<s.size();j++)
 		{
 			if(s[j]=='2')
 			{
