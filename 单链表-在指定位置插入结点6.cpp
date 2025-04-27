@@ -1,4 +1,4 @@
-//单链表-在指定位置插入结点5
+//单链表-在指定位置插入结点6
 #include<stdio.h>
 #include<stdlib.h>
 typedef int ElemType;
