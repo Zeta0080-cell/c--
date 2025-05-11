@@ -1,7 +1,7 @@
 //单链表应用-双指针查找倒数第k个元素2
 #include<bits/stdc++.h>
 using namespace std;
-typedef int ElemType;
+typedef char ElemType;
 typedef struct node{
 	ElemType data;
 	struct node *next;
