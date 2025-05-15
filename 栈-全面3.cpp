@@ -15,7 +15,7 @@ Stack* initStack()
 	return s;
 }
 
-int push(Stack *s,ElemType e)//入栈
+int push(Stack *s,ElemType e)//入栈 
 {
 	if(s->top>=MAXSIZE-1)
 	{
@@ -52,7 +52,6 @@ int getTop(Stack *s,ElemType *e)
 int main()
 {
 	Stack *s = initStack();//定义一个栈类型指针 
-    initStack(s);
     push(s, 10);
     push(s, 20);
     push(s, 30);
